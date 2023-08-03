@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2023-08-02">
+<meta name="dcterms.date" content="2022-02-01">
+<meta name="description" content="My first paper released on arXiv, coauthored with Daniel Kowal, and recipient of several student awards.">
 
-<title>Brian King - Post With Code</title>
+<title>Brian King - Warped Dynamic Linear Models for Time Series of Counts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,40 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -149,11 +115,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
+      <h1 class="title">Warped Dynamic Linear Models for Time Series of Counts</h1>
+                  <div>
+        <div class="description">
+          My first paper released on arXiv, coauthored with Daniel Kowal, and recipient of several student awards.
+        </div>
+      </div>
+                          <div class="quarto-categories">
                 <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">publication</div>
+                <div class="quarto-category">time series</div>
+                <div class="quarto-category">statistics</div>
               </div>
                   </div>
   </div>
@@ -161,17 +133,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 2, 2023</p>
+        <p class="date">February 1, 2022</p>
       </div>
     </div>
     
@@ -189,12 +155,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>This is a post with executable code.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
+<p>It’s several months late, but I wanted to announce my first paper, written with my advisor Daniel Kowal, entitled <a href="https://arxiv.org/abs/2110.14790">Warped Dynamic Linear Models for Time Series of Counts</a>. The basic idea is to harness the flexibility of Dynamic Linear Models, but in such a way that we produce a coherent model for count and integer-valued data (e.g.&nbsp;the data-generating process is itself integer-valued). As it turns out, our method also has some unique connections with a distribution known as the selection-normal, and we are able to derive some interesting theory underlying our warpDLM framework. Of course, that’s just the tip of the iceberg, so I definitely encourage you to check out the paper! Code to reproduce the results from the paper is also available <a href="https://github.com/bking124/warpDLM-reproducible-code">on Github</a>.</p>
+<p>I’m also very happy to announce that this work was selected for several student paper awards. First, it was chosen to receive one of the International Biometric Society (<a href="https://www.biometricsociety.org/home">IBS</a>) Eastern North America Region (<a href="https://www.enar.org/">ENAR</a>) Distinguished Student Paper Awards. I will present my research at the <a href="https://enar.org/meetings/spring2022/">2022 ENAR Spring Meeting</a> held in Houston. Second, I’m also honored to say my paper was selected by both the Business and Economic Statistics and Bayesian Statistical Science sections of the ASA in their Student Paper Award competitions. Students can only accept one award, so I have accepted that of the Section for Bayesian Statistical Science. I will have the opportunity to present at the <a href="https://ww2.amstat.org/meetings/jsm/2022/">2022 Joint Statistical Meetings</a> held in Washington, D.C.</p>
+<p>Check out the articles <a href="https://statistics.rice.edu/news/rice-graduate-students-win-distinguished-paper-awards-international-biometic-society">here</a> and <a href="https://statistics.rice.edu/news/rice-statistics-phd-students-win-best-paper-awards-asa">here</a> about me and my fellow Rice PhD students who are doing some fantastic work!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="warpDLM_TradingCard.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">A fun artistic rendering of the paper’s title…<a href="https://app.wombo.art/">generate your own</a></figcaption>
+</figure>
 </div>
 
 

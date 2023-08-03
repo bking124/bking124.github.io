@@ -1,5 +1,6 @@
 ---
-title: "quarto-website"
+title: "The Brains of Brian"
+subtitle: "A blog on statistics, data science, and occasionally other things"
 listing:
   contents: posts
   sort: "date desc"
@@ -8,6 +9,6 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: false
 ---
 

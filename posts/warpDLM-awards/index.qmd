@@ -1,0 +1,15 @@
+---
+title: "Warped Dynamic Linear Models for Time Series of Counts"
+date: "2022-02-01"
+categories: [news, publication, time series,statistics]
+image: ODCountsTs.png
+description: "My first paper released on arXiv, coauthored with Daniel Kowal, and recipient of several student awards."
+---
+
+It's several months late, but I wanted to announce my first paper, written with my advisor Daniel Kowal, entitled [Warped Dynamic Linear Models for Time Series of Counts](https://arxiv.org/abs/2110.14790). The basic idea is to harness the flexibility of Dynamic Linear Models, but in such a way that we produce a coherent model for count and integer-valued data (e.g. the data-generating process is itself integer-valued).  As it turns out, our method also has some unique connections with a distribution known as the selection-normal, and we are able to derive some interesting theory underlying our warpDLM framework. Of course, that's just the tip of the iceberg, so I definitely encourage you to check out the paper!  Code to reproduce the results from the paper is also available [on Github](https://github.com/bking124/warpDLM-reproducible-code).
+
+I'm also very happy to announce that this work was selected for several student paper awards. First, it was chosen to receive one of the International Biometric Society ([IBS](https://www.biometricsociety.org/home)) Eastern North America Region ([ENAR](https://www.enar.org/)) Distinguished Student Paper Awards.  I will present my research at the [2022 ENAR Spring Meeting](https://enar.org/meetings/spring2022/) held in Houston. Second, I'm also honored to say my paper was selected by both the Business and Economic Statistics and Bayesian Statistical Science sections of the ASA in their Student Paper Award competitions.  Students can only accept one award, so I have accepted that of the Section for Bayesian Statistical Science.  I will have the opportunity to present at the [2022 Joint Statistical Meetings](https://ww2.amstat.org/meetings/jsm/2022/) held in Washington, D.C.
+
+Check out the articles [here](https://statistics.rice.edu/news/rice-graduate-students-win-distinguished-paper-awards-international-biometic-society) and [here](https://statistics.rice.edu/news/rice-statistics-phd-students-win-best-paper-awards-asa) about me and my fellow Rice PhD students who are doing some fantastic work!
+
+![A fun artistic rendering of the paper's title...[generate your own](https://app.wombo.art/)](warpDLM_TradingCard.jpg)

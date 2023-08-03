@@ -1,19 +1,25 @@
 ---
-title: "About"
+title: "About Me"
 image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: envelope-at-fill
+      text: Email
+      href: mailto:brianking387@gmail.com 
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/brianking387/
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/bking124
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/brian_el_rey
 ---
 
-About this blog
+I am a PhD Student in the [Department of Statistics](https://statistics.rice.edu) at Rice University, advised by [Dr. Daniel Kowal](http://www.danielrkowal.com/).  My research focuses on Bayesian modeling and forecasting for time series of counts, but I am also interested in a wide variety of other topics such as text analytics and causal inference.  I am currently an NSF Graduate Research Fellow.
+
+Prior to coming to Rice, I graduated from Baylor University in 2018 with a double major in Mathematics and Statistics alongside a secondary major in Spanish and a minor in Computer Science.
+
+When I have a bit of free time, I love to get outdoors or play some sports (particularly basketball). I also try to travel whenever I get the opportunity, and when I don't have that chance, I like to substitute the traveling with exploring new foods, either by cooking at home or by checking out new restaurants.
