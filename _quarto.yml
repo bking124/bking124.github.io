@@ -4,6 +4,8 @@ project:
 
 website:
   title: "Brian King"
+  google-analytics: "G-G6MB3WX829"
+  cookie-consent: true
   navbar:
     right:
       - text: "About"
@@ -14,8 +16,7 @@ website:
         href: https://twitter.com/brian_el_rey
       - icon: linkedin
         href: https://www.linkedin.com/in/brianking387/
-  google-analytics: "G-G6MB3WX829"
-  cookie-consent: true
+  
 format:
   html:
     theme: 
