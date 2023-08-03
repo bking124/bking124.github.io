@@ -14,24 +14,10 @@
     "text": "Warped Dynamic Linear Models for Time Series of Counts\n\n\n\n\n\n\n\nnews\n\n\npublication\n\n\ntime series\n\n\nstatistics\n\n\n\n\nMy first paper released on arXiv, coauthored with Daniel Kowal, and recipient of several student awards.\n\n\n\n\n\n\nFeb 1, 2022\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "posts/warpDLM-awards/index.html",
     "href": "posts/warpDLM-awards/index.html",
     "title": "Warped Dynamic Linear Models for Time Series of Counts",
     "section": "",
     "text": "It’s several months late, but I wanted to announce my first paper, written with my advisor Daniel Kowal, entitled Warped Dynamic Linear Models for Time Series of Counts. The basic idea is to harness the flexibility of Dynamic Linear Models, but in such a way that we produce a coherent model for count and integer-valued data (e.g. the data-generating process is itself integer-valued). As it turns out, our method also has some unique connections with a distribution known as the selection-normal, and we are able to derive some interesting theory underlying our warpDLM framework. Of course, that’s just the tip of the iceberg, so I definitely encourage you to check out the paper! Code to reproduce the results from the paper is also available on Github.\nI’m also very happy to announce that this work was selected for several student paper awards. First, it was chosen to receive one of the International Biometric Society (IBS) Eastern North America Region (ENAR) Distinguished Student Paper Awards. I will present my research at the 2022 ENAR Spring Meeting held in Houston. Second, I’m also honored to say my paper was selected by both the Business and Economic Statistics and Bayesian Statistical Science sections of the ASA in their Student Paper Award competitions. Students can only accept one award, so I have accepted that of the Section for Bayesian Statistical Science. I will have the opportunity to present at the 2022 Joint Statistical Meetings held in Washington, D.C.\nCheck out the articles here and here about me and my fellow Rice PhD students who are doing some fantastic work!\n\n\n\nA fun artistic rendering of the paper’s title…generate your own"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   }
 ]

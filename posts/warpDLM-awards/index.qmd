@@ -12,4 +12,4 @@ I'm also very happy to announce that this work was selected for several student 
 
 Check out the articles [here](https://statistics.rice.edu/news/rice-graduate-students-win-distinguished-paper-awards-international-biometic-society) and [here](https://statistics.rice.edu/news/rice-statistics-phd-students-win-best-paper-awards-asa) about me and my fellow Rice PhD students who are doing some fantastic work!
 
-![A fun artistic rendering of the paper's title...[generate your own](https://app.wombo.art/)](warpDLM_TradingCard.jpg)
+![A fun artistic rendering of the paper's title...[generate your own](https://app.wombo.art/)](warpDLM_TradingCard.jpg){width=50%}
