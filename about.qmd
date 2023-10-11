@@ -18,8 +18,10 @@ about:
       href: https://twitter.com/brian_el_rey
 ---
 
-I am a PhD Student in the [Department of Statistics](https://statistics.rice.edu) at Rice University, advised by [Dr. Daniel Kowal](http://www.danielrkowal.com/).  My research focuses on Bayesian modeling and forecasting for time series of counts, but I am also interested in a wide variety of other topics such as text analytics and causal inference.  I am currently an NSF Graduate Research Fellow.
+My name is Brian King, and I am currently a Senior ML Research Engineer at [Arm](https://www.arm.com/), working on building machine learning solutions for more efficient hardware verification. I recently graduated from Rice University with a PhD in [Statistics](https://statistics.rice.edu), where I was advised by [Daniel Kowal](http://www.danielrkowal.com/). My doctoral research focused on Bayesian models for forecasting time series of counts, including both methodological contributions as well as open-source software, most notably the R package [countSTAR](https://bking124.github.io/countSTAR/). In addition to time series and Bayesian statistics, I am interested in a wide variety of other topics such as text analytics and causal inference.
 
-Prior to coming to Rice, I graduated from Baylor University in 2018 with a double major in Mathematics and Statistics alongside a secondary major in Spanish and a minor in Computer Science.
+Prior to Rice, I graduated from Baylor University in 2018 with a double major in Mathematics and Statistics alongside a secondary major in Spanish and a minor in Computer Science.
 
-When I have a bit of free time, I love to get outdoors or play some sports (particularly basketball). I also try to travel whenever I get the opportunity, and when I don't have that chance, I like to substitute the traveling with exploring new foods, either by cooking at home or by checking out new restaurants.
+Outside of the technical realm, I enjoy cooking, exploring new restaurants, playing basketball, watching football, and getting outdoors (when the Texas heat isn't too bad). I'm also quite passionate about learning new languages, and in particular have spent significant time studying Spanish and Mandarin.
+
+Feel free to reach out via email or any of the platforms shown below!
