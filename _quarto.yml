@@ -12,8 +12,6 @@ website:
         file: about.qmd
       - icon: github
         href: https://github.com/bking124
-      - icon: twitter
-        href: https://twitter.com/brian_el_rey
       - icon: linkedin
         href: https://www.linkedin.com/in/brianking387/
   
