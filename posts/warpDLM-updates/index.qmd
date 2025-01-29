@@ -1,0 +1,11 @@
+---
+title: "Paper Accepted to Bayesian Analysis! (Plus Software Updates)"
+date: "2023-06-05"
+categories: [news, publication, time series, software, R]
+image: warpPPC.png
+description: "Recent updates: our paper on warped dynamic linear models was accepted to Bayesian Analysis, and the R package countSTAR is available on CRAN!"
+---
+
+I am very happy to announce that my paper "Warped Dynamic Linear Models for Time Series of Counts" (discussed in a [previous post](../warpDLM-awards/index.qmd)) has officially been [accepted to Bayesian Analysis](https://doi.org/10.1214/23-BA1394)! It was a long journey, but I'm quite proud of the finished product and honored to join the list of those published in a journal I really admire and often browse.
+
+In other news, I've also recently been hard at work on an R software package called countSTAR, which was recently accepted to [CRAN](https://cran.r-project.org/package=countSTAR)! This package implements a family of count-valued models built around Simultaneous Transformation and Rounding (STAR), thus synthesizing a large body of research by my advisor Daniel Kowal (and collaborators) into frequentist and Bayesian approaches for count-valued tabular data. It also incorporates some basic warpDLM models for those interested in time series analysis. For more details, check out the [package website](https://bking124.github.io/countSTAR/) and accompanying [vignette](https://bking124.github.io/countSTAR/articles/countSTAR.html).
